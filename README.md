@@ -1,6 +1,6 @@
 # nodejs-bower-grunt
 
-This Dockerfile extends the `dockerfile/nodejs-bower-grunt` and adds sass, compass, and libraries that are required for some builds. It is intended to be used for building the assets in your project.
+This Dockerfile extends `debian:wheezy` and installs node, bower, grunt, sass, compass, and libraries that are required for some builds. It is intended to be used for building the assets in your project.
 
 The workdir is set to `/app`.
 
