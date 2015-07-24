@@ -18,4 +18,5 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 RUN gem install sass compass
 RUN npm install -g bower grunt-cli
+RUN npm install -g npm
 WORKDIR /app
