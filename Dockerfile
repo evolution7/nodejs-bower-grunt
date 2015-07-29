@@ -8,7 +8,7 @@ ENV PATH $PATH:/nodejs/bin
 RUN apt-get update && apt-get install -y \
     libfreetype6 libfreetype6-dev \
     libfontconfig1 libfontconfig1-dev \
-    ruby ruby-dev locales
+    ruby ruby-dev locales libpng-dev
 RUN echo "en_US UTF-8" >> /etc/locale.gen
 RUN dpkg-reconfigure locales
 RUN locale-gen en_US.UTF-8
